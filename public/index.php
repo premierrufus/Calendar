@@ -7,7 +7,7 @@
  */
 echo "<h1>Hello!</h1>";
 echo getcwd();
-include_once '/Users/glx/Desktop/ProPHP/Calendar/sys/core/init.inc.php';
+include_once '/home/glx/sites/html/Calendar/sys/core/init.inc.php';
 
 echo "<h3>Still working</h3>";
 /*
