@@ -26,7 +26,7 @@ $dbo = new PDO($dsn, DB_USER, DB_PASS);
  */
 function __autoload($class)
 {
-	$filename = "/home/glx/sites/html/Calendar/public/sys/class/class." . $class . ".inc.php";
+	$filename = "../sys/class/class." . $class . ".inc.php";
 	if ( file_exists($filename) )
 	{
 		include_once $filename;
