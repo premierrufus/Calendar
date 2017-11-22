@@ -1,13 +1,15 @@
 <?php  
 
-declare(strict_types=1);
+// declare(strict_types=1);
 
 /*
  * Include necessary files
  */
-include_once '../sys/core/init.inc.php';
 echo "<h1>Hello!</h1>";
+echo getcwd();
+include_once '/Users/glx/Desktop/ProPHP/Calendar/sys/core/init.inc.php';
 
+echo "<h3>Still working</h3>";
 /*
  * Load the calendar for January
  */
