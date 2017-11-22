@@ -7,7 +7,7 @@ declare(strict_types=1);
  */
 echo "<h1>Hello!</h1>";
 echo getcwd();
-include_once '/home/glx/sites/html/Calendar/sys/core/init.inc.php';
+include_once '/home/glx/sites/html/Calendar/public/sys/core/init.inc.php';
 
 echo "<h3>Still working</h3>";
 /*

@@ -5,7 +5,7 @@ declare(strict_types=1);
 /**
  * Database actions (DB access, validation, etc.)
  *
- * PHP version 5
+ * PHP version 7
  *
  * LICENSE: This source file is subject to the MIT License, available
  * at http://www.opensource.org/licenses/mit-license.html
