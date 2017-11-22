@@ -8,7 +8,7 @@ include_once '../sys/config/db-cred.inc.php';
 /*
  * Define constants for configuration info
  */
-forearch ( $C as $name => $val )
+foreach ( $C as $name => $val )
 {
 	define($name, $val);
 }
