@@ -4,6 +4,7 @@
  * Include necessary files
  */
 include_once '../sys/core/init.inc.php';
+echo "<h1>Hello!</h1>";
 
 /*
  * Load the calendar for January
