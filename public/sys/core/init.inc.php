@@ -5,7 +5,7 @@ declare(strict_types=1);
 /* 
  * Include the necessary configuration info 
  */
-include_once '/home/glx/sites/html/Calendar/public/sys/config/db-cred.inc.php';
+include_once dirname(__FILE__) . '/../sys/config/db-cred.inc.php';
 
 /*
  * Define constants for configuration info
