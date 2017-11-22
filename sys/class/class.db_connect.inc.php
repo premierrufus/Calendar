@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * Database actions (DB access, validation, etc.)
  *
@@ -25,9 +27,9 @@ class DB_Connect {
 	/**
 	 * Checks for a DB object or creates one if one isn't found
 	 *
-	 * @param object $dbo A database object
+	 * @param object $db A database object
 	 */
-	protected function __construct($dbo=NULL)
+	protected function __construct($db=NULL)
 	{
 		if ( is_object($db) )
 		{
